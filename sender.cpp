@@ -8,7 +8,7 @@ Sender::Sender(QObject *parent) : QObject(parent)
     lineSended = 0;
     threadIndex = 0;
     groupNum = 60000;
-    windowSize = 5; //best at 30 where Mss = 12 about 10M per sec
+    windowSize = 30; //best at 30 where Mss = 12 about 10M per sec
     NotReceiveNum = 0;
     fileSize = 0;
     head = 0 ;
